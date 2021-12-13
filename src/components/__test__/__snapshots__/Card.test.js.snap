@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should render <Card /> correct 1`] = `
+<DocumentFragment>
+  <div
+    class="round-sm border-2 h-full  flex-1"
+    data-test-id="Card"
+  >
+    <div />
+    <div />
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Card /> should render correct 1`] = `
+<DocumentFragment>
+  <div
+    class="round-sm border-2 h-full  flex-1"
+    data-test-id="Card"
+  >
+    <div />
+    <div />
+    <div />
+  </div>
+</DocumentFragment>
+`;
