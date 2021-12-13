@@ -43,8 +43,4 @@ test('測試 useFeMaleCards', () => {
   }),);
 })
 
-// test('測試 useAsyncAllCards', () => {
-//   return useAsyncAllCards().then(data => {
-//     expect(data.length).toBe(STATIC_CARDS.length);
-//   });
-// });
+// https://jestjs.io/zh-Hans/docs/expect

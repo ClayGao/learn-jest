@@ -19,7 +19,6 @@ export function useAdultCards () {
   return STATIC_CARDS.filter(({age}) => age >= 18)
 }
 
-
 export function useAsyncAllCards () {
   const [data, setData] = useState([])
 
@@ -32,3 +31,4 @@ export function useAsyncAllCards () {
   return data 
 }
 
+// 完整 doc 請參考 https://jestjs.io/zh-Hans/docs/expect

@@ -12,7 +12,7 @@ describe('非同步測試', () => {
     })
   })
   // or
-  it('測試 fetchData(shorth)', () => {
+  it('測試 fetchData(short)', () => {
     return expect(fetchData()).resolves.toEqual(STATIC_CARDS);
   });
 

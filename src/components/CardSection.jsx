@@ -1,4 +1,3 @@
-
 import Card from './Card'
 
 function CardSection({cards}) {

@@ -3,8 +3,11 @@ import { useAllCards, useMaleCards, useFemaleCards, useAdultCards, useAsyncAllCa
 import './App.css';
 
 function App() {
-  const cardsData = useAsyncAllCards();
-  console.log({cardsData})
+  const cardsData = useAllCards();
+  // const cardsData = useAsyncAllCards();
+  // const cardsData = useMaleCards();
+  // const cardsData = useFemaleCards();
+  // const cardsData = useAdultCards();
 
   return (
     <div className="App">
